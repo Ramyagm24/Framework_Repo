@@ -32,6 +32,12 @@ public class Test1 {
 		System.out.println("excute CreateContactwithDate & verify");
 		//mvn test -Durl=http://localhost:8888 -Dbrowser=firefox -Dusername=admin -Dpassword=manager
 	}
+	
+	@Test
+	public void deleteContact() {
+		System.out.println("excute CreateContactwithDate & verify");
+		//mvn test -Durl=http://localhost:8888 -Dbrowser=firefox -Dusername=admin -Dpassword=manager
+	}
 
 
 }
